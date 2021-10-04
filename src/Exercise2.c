@@ -27,17 +27,17 @@ int main(int argc, char *argv[]) {
 	}
 	//Your codes here
 	int max,min;
-	max = testcase[1];
-	min = testcase[1];
-	for(int j=0;j <=argc; j++)
+	max = testcase[2];
+	min = testcase[2];
+	for(int j=0;j <=argc-1; j++)
 	{
 		if(testcase[j]>=max)
 			max = testcase[j];		
 	}
-	for(int j=0;j <=argc; j++)
+	for(int j=0;j <=argc-1; j++)
 	{
 		if(testcase[j]<=min)
-			min = testcase[j];		
+		min = testcase[j];		
 	}
 	printf(" Max: %d \n Min: %d",max,min);
 
