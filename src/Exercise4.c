@@ -34,6 +34,10 @@ int main(int argc, char *argv[]) {
         {
             printf(" *");
         }
+		 for(int j=1; j<= height-i ; j++ )
+            {
+                printf("  ");
+            }
         printf("\n");
 	}
 	for(int i=border+1;i<=height-border;i++)
@@ -57,9 +61,14 @@ int main(int argc, char *argv[]) {
 		{
 			printf(" *");
 		}
+		for(int j=1; j<= height-i ; j++ )
+            {
+                printf("  ");
+            }
 		printf("\n");
 		
 	}
+	
 	for(int i=height-border+1 ; i <=height ; i++)
     {
         for(int j=1; j<= height-i ; j++ )
@@ -70,6 +79,10 @@ int main(int argc, char *argv[]) {
         {
             printf(" *");
         }
+		for(int j=1; j<= height-i ; j++ )
+            {
+                printf("  ");
+            }
         printf("\n");
     }
 
