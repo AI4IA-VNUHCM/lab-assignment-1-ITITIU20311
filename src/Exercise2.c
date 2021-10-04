@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 		if(testcase[j]<=min)
 		min = testcase[j];		
 	}
-	printf("Max: %d \nMin: %d",max,min);
+	printf("Max: %d\nMin: %d",max,min);
 
 
 
