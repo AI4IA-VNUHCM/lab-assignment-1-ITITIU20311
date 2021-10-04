@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 	while (testcase!=0)
 	{
 		chuSo = testcase % 10 ;
-		printf("%d",chuSo);
+		printf("%d ",chuSo);
 		testcase = (testcase-chuSo)/10;
 
 	}
