@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
             {
                 printf("  ");
             }
-        printf("\n");
+        printf(" \n");
 	}
 	for(int i=border+1;i<=height-border;i++)
 	{//in dau cach
@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
             {
                 printf("  ");
             }
-		printf("\n");
+		printf(" \n");
 		
 	}
 	
@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
             {
                 printf("  ");
             }
-        printf("\n");
+        printf(" \n");
     }
 
 
