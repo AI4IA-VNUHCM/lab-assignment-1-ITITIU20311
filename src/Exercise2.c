@@ -32,11 +32,12 @@ int main(int argc, char *argv[]) {
 	for(int j=0;j <=argc; j++)
 	{
 		if(testcase[j]>=max)
-			max = testcase[j];
+			max = testcase[j];		
+	}
+	for(int j=0;j <=argc; j++)
+	{
 		if(testcase[j]<=min)
-			min = testcase[j];
-
-			
+			min = testcase[j];		
 	}
 	printf(" Max: %d \n Min: %d",max,min);
 
