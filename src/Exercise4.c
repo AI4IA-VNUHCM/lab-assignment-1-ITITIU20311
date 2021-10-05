@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
             }
         for (int k = 0; k<=2*i-2; k++)
         {
-            printf(" *");
+            printf("* ");
         }
 		 for(int j=1; j<= height-i ; j++ )
             {
@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
 	//in sao
 		for (int k = 1; k<=border; k++)
 		{
-			printf(" *");
+			printf("* ");
 		}
 	// in dau cach o giua
 		for (int l = 0;l <=2*i-2-2*border; l++)
@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
 	//in sao lan 2
 		for (int m = 1; m <= border; m++)
 		{
-			printf(" *");
+			printf("* ");
 		}
 		for(int j=1; j<= height-i ; j++ )
             {
@@ -77,7 +77,7 @@ int main(int argc, char *argv[]) {
             }
         for (int k = 0; k<=2*i-2; k++)
         {
-            printf(" *");
+            printf("* ");
         }
 		for(int j=1; j<= height-i ; j++ )
             {
