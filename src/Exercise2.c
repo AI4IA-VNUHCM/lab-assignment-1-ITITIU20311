@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
 	}
 	//Your codes here
 	int max,min;
-	max = testcase[2];
-	min = testcase[2];
+	max = testcase[0];
+	min = testcase[0];
 	for(int j=0;j <=argc-1; j++)
 	{
 		if(testcase[j]>=max)
