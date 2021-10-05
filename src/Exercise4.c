@@ -24,6 +24,27 @@ int main(int argc, char *argv[]) {
 	int height = atoi(argv[1]);
 	int border = atoi(argv[2]);
 	//Your codes here
+    if (border==0)
+    {
+        for(int i=1;i<=height;i++)
+	{
+        for(int j=1; j<= height-i ; j++ )
+            {
+                printf("  ");
+            }
+        for (int k = 0; k<=2*i-2; k++)
+        {
+            printf("* ");
+        }
+		 for(int j=1; j<= height-i ; j++ )
+            {
+                printf("  ");
+            }
+        printf("\n");
+	}
+    }
+    else
+    {
 	for(int i=1;i<=border;i++)
 	{
         for(int j=1; j<= height-i ; j++ )
@@ -85,7 +106,7 @@ int main(int argc, char *argv[]) {
             }
         printf("\n");
     }
-
+    }
 
 	return 0;
 }
